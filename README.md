@@ -2,12 +2,14 @@
 This directory contains:
 
 myAllocator.c: a first-fit allocator and next-fit allocator
+
 myAllocator.h: its header file
 
 myAllocatorTest1.c: a test program for my allocator 
 
 malloc.c: a replacement for malloc that uses my allocator
 test1.c: a test program that uses this replacement malloc
+
 nextFit.c: a test program that uses this replacement malloc
 
 There are two different testers as some implementations of printf
