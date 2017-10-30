@@ -3,6 +3,8 @@ This directory contains:
 
 **_myAllocator.c: a first-fit allocator and next-fit allocator_**
 
+_Improve implementation of resizeRegion() to resize an already allocated region to the requested size when possible rather than just allocating a new one and copying_
+
 myAllocator.h: its header file
 
 myAllocatorTest1.c: a test program for my allocator 
